@@ -57,7 +57,7 @@ const Technology = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
-          formMess.innerHTML = `<p class='success'>Message envoyé !</p>`;
+          formMess.innerHTML = `<p class='success'>Message sent !</p>`;
 
           setTimeout(() => {
             formMess.innerHTML = "";
@@ -65,7 +65,7 @@ const Technology = () => {
         },
         (error) => {
           console.log(error.text);
-          formMess.innerHTML = `<p class='error'>Une erreur s'est produite, veuillez réessayer</p>`;
+          formMess.innerHTML = `<p class='error'>Error</p>`;
 
           setTimeout(() => {
             formMess.innerHTML = "";
