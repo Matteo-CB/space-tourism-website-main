@@ -1,0 +1,92 @@
+{
+  "destinations": [
+    {
+      "name": "Moon",
+      "images": {
+        "png": "../style/destination/image-moon.png",
+        "webp": "../style/destination/image-moon.webp"
+      },
+      "description": "The Moon is Earth's natural satellite, orbiting around our planet. It is a rocky celestial body with a barren landscape, marked by craters, mountains, and plains.",
+      "distance": "384,400 km",
+      "travel": "3 days"
+    },
+    {
+      "name": "Mars",
+      "images": {
+        "png": "../style/destination/image-mars.png",
+        "webp": "../style/destination/image-mars.webp"
+      },
+      "description": "Mars is the fourth planet from the Sun in our solar system. Often referred to as the 'Red Planet' due to its reddish appearance, Mars has fascinated scientists for its potential to support life. ",
+      "distance": "225 mil. km",
+      "travel": "9 months"
+    },
+    {
+      "name": "Europa",
+      "images": {
+        "png": "../style/destination/image-europa.png",
+        "webp": "../style/destination/image-europa.webp"
+      },
+      "description": "Europa is one of Jupiter's moons and is known for its icy surface. It has a subsurface ocean of liquid water, making it a prime candidate for the search for extraterrestrial life.",
+      "distance": "628 mil. km",
+      "travel": "3 years"
+    },
+    {
+      "name": "Titan",
+      "images": {
+        "png": "../style/destination/image-titan.png",
+        "webp": "../style/destination/image-titan.webp"
+      },
+      "description": "Titan is Saturn's largest moon and is unique in our solar system. It has a thick atmosphere primarily composed of nitrogen, similar to Earth's atmosphere. Titan is known for its hydrocarbon lakes and rivers.",
+      "distance": "1.6 bil. km",
+      "travel": "7 years"
+    }
+  ],
+  "anecdotes": [
+    {
+      "title": "The Space Pen vs. Pencil Debate",
+      "subtitle": "Overcoming the Challenge of Writing in Microgravity",
+      "text": "During the early days of space exploration, both the United States and the Soviet Union faced a challenge of writing instruments in microgravity. While the Soviet Union opted for using pencils, NASA invested in developing a 'space pen' that could write in zero gravity, upside down, and even underwater. Eventually, both countries started using the space pen due to its reliability."
+    },
+    {
+      "title": "Capturing Earth's Beauty from Space",
+      "subtitle": "The Iconic 'Earthrise' Photo from Apollo 8",
+      "text": "During the Apollo 8 mission in 1968, astronauts Frank Borman, Jim Lovell, and William Anders became the first humans to orbit the Moon. On Christmas Eve, as they looked out of their spacecraft, they captured the iconic photograph known as 'Earthrise.' This image showcased the beauty and fragility of our planet from the perspective of deep space."
+    },
+    {
+      "title": "Sunita Williams' Record-Breaking Spacewalk",
+      "subtitle": "Pushing Boundaries and Setting New Milestones in Space Exploration",
+      "text": "In 2006, NASA astronaut Sunita Williams embarked on a spacewalk outside the International Space Station (ISS) that lasted for a remarkable 4 hours and 24 minutes. This endurance feat set a new record for the longest spacewalk by a female astronaut. During her time outside the ISS, Williams performed various tasks, including equipment repairs and installations."
+    },
+    {
+      "title": "Unveiling the Secrets of Mars",
+      "subtitle": "Discovering Evidence of Water on the Red Planet",
+      "text": "Over the years, scientists have been intrigued by the possibility of water on Mars. In 2015, NASA's Mars Reconnaissance Orbiter made a significant discovery by confirming the existence of liquid water on the Red Planet. Dark streaks, known as recurring slope lineae, were observed on Martian slopes, indicating the presence of flowing water during warmer seasons."
+    }
+  ],
+  "technology": [
+    {
+      "name": "Launch vehicle",
+      "images": {
+        "portrait": "../style/technology/image-launch-vehicle-portrait.jpg",
+        "landscape": "../style/technology/image-launch-vehicle-landscape.jpg"
+      },
+      "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+    },
+    {
+      "name": "Spaceport",
+      "images": {
+        "portrait": "../style/technology/image-spaceport-portrait.jpg",
+        "landscape": "../style/technology/image-spaceport-landscape.jpg"
+      },
+      "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+    },
+    {
+      "name": "Space capsule",
+      "images": {
+        "portrait": "../style/technology/image-space-capsule-portrait.jpg",
+        "landscape": "../style/technology/image-space-capsule-landscape.jpg"
+      },
+      "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
+    }
+  ]
+}

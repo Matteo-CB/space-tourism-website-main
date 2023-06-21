@@ -1,0 +1,105 @@
+$color1: #0b0d17;
+$color2: #d0d6f9;
+$color3: #ffffff;
+
+
+@font-face {
+    font-family: Bellefair;
+    src: url('../font/Bellefair-Regular.ttf');
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url('../font/BarlowCondensed-Regular.ttf');
+}
+
+$font1: Bellefair;
+$font2: Barlow;
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+  
+body.home-background {
+    background: url(../home/background-home-desktop.jpg) center/cover;
+  }
+  
+  body.destination-background {
+    background: url(../destination/background-destination-desktop.jpg) center/cover;
+  }
+  
+  body.crew-background {
+    background: url(../crew/background-crew-desktop.jpg) center/cover;
+  }
+  
+  body.technology-background {
+    background: url(../technology/background-technology-desktop.jpg) center/cover;
+  }
+  
+  @media screen and (max-width: 1190px) {
+    body.home-background {
+      background: url(../home/background-home-tablet.jpg) center/cover;
+    }
+    
+    body.destination-background {
+      background: url(../destination/background-destination-tablet.jpg) center/cover;
+    }
+    
+    body.crew-background {
+      background: url(../crew/background-crew-tablet.jpg) center/cover;
+    }
+    
+    body.technology-background {
+      background: url(../technology/background-technology-tablet.jpg) center/cover;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    body.home-background {
+      background: url(../home/background-home-mobile.jpg) center/cover;
+    }
+    
+    body.destination-background {
+      background: url(../destination/background-destination-mobile.jpg) center/cover;
+    }
+    
+    body.crew-background {
+      background: url(../crew/background-crew-mobile.jpg) center/cover;
+    }
+    
+    body.technology-background {
+      background: url(../technology/background-technology-mobile.jpg) center/cover;
+    }
+  }
+  
+  
+
+a{
+    color: $color3;
+    text-decoration: none;
+}
+
+.legal{
+  margin: 0 auto;
+  text-align: center;
+  color: $color2;
+  font-family: $font2;
+  width: 70%;
+  h1,h2{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: $font1;
+    padding: 20px 0;
+    color: white;
+  }
+}

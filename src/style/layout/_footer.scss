@@ -1,0 +1,47 @@
+@import './settings';
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: $font1;
+    @media screen and (max-width: 1190px) {
+        &{
+            font-size: 0.7rem;
+            white-space: nowrap;
+        }
+        
+    }
+    @media screen and (max-width: 440px) {
+        &{
+            font-size: 0.6rem;
+            white-space: nowrap;
+        }
+    }
+    @media screen and (max-width: 380px) {
+        &{
+            font-size: 0.5rem;
+            white-space: nowrap;
+        }
+    }
+    a:not(.tiret){
+        padding: 0 10px;
+        color: rgb(209, 209, 209);
+        transition: 0.3s;
+        &:hover{
+            text-decoration: underline;
+            color: white;
+
+        }
+        @media screen and (max-width: 380px) {
+            &{
+                padding: 0 5px;
+            }
+        }
+    }
+    .tiret{
+        pointer-events: none;
+        color: white!important;
+    }
+}

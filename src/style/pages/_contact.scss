@@ -1,0 +1,86 @@
+@import '../layout/settings';
+
+#contact{
+    p{
+        padding: 20px 0 0 0;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        @media screen and (max-width: 1024px) and (max-height: 600px) {
+            padding: 10px 0 0 0;
+            font-size: 0.7rem;
+        }
+        @media screen and (max-width: 900px) {
+            font-size: 0.7rem;
+        }
+        @media screen and (max-width: 300px) {
+            font-size: 0.6rem;
+            width: 70%;
+        }
+    }
+    color: white;
+    font-family: $font2;
+    h1{
+        span{
+            color: rgba(255, 255, 255, 0.315);
+        }
+        @media screen and (max-width: 1024px) and (max-height: 600px) {
+            margin-top: -10px;
+            font-size: 0.9rem!important;
+        }
+    }
+    form{
+        height: 250px;
+        gap: 20px;
+        width: 95%;
+        max-width: 350px;
+        margin: 50px auto;
+        @media screen and (min-width: 1190px) {
+            margin: 50px auto;
+        }
+        @media screen and (max-width: 300px) {
+            width: 60%;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        @media screen and (max-width: 1024px) and (max-height: 600px) {
+            gap: 10px;
+            margin: 20px auto;
+        }
+        input:not(.btn-submit), textarea{
+            color: white;
+            background: #13141a;
+            border: none;
+            
+            outline: none;
+            resize: none;
+            &:focus{
+                outline: 1px solid rgb(145, 142, 142);
+            }
+            &::placeholder{
+                font-family: $font2;
+                padding: 10px;
+                color: rgba(255, 255, 255, 0.637);
+                font-weight: 300;
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                font-size: 0.9rem;
+            }
+        }
+        .btn-submit{
+            margin-top: 20px 0;
+            width: 95%;
+            justify-self: center;
+            background: #3d4153;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            font-family: $font1;
+            color: rgb(197, 188, 188);
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
+        display: grid;
+        grid-template-rows: 20% 20% 40% 20%;
+    }
+}
